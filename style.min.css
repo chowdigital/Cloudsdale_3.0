@@ -3541,7 +3541,7 @@ caption{color:#dee2e6}
 .popconfirm .btn-flat{color:#fff}
 html,body,#page,.view{width:100%;height:100%}
 body.logged-in nav{margin-top:32px}
-body{background:#0e3254;background:radial-gradient(circle,#0e3254 0,#062138 100%);background:url("assets/img/cloudback.svg") no-repeat 0 0 fixed;background-size:cover;background-color:#0e3254}
+body{background-color:#fff}
 strong{font-weight:600}
 .pt-6{margin-top:7rem}
 .pb-6{margin-bottom:7rem}
@@ -3571,9 +3571,9 @@ footer{margin-top:0}
 .black-background{margin-top:2em;background:#000}
 .fc-wide{padding-left:calc(var(--bs-gutter-x) / 2)}
 .contact-icons li{list-style-type:none}
-.about-box{background-color:#ebf6de;padding:2em;color:#0e3254}
-.white-content-box{background-color:#65d19a;width:100%;padding:2rem;color:#ebf6de}
-.contact-box{width:100%;padding:2rem;color:#ebf6de}
+.about-box{background-color:#fff;padding:2em;color:#0e3254}
+.white-content-box{background-color:#65d19a;width:100%;padding:2rem;color:#fff}
+.contact-box{width:100%;padding:2rem;color:#fff}
 .web-card{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
 .web-card .card-body{background-color:#0a1d2e;margin-right:.5em;margin-left:.5em}
 .web-card .bg-image{border-radius:.25rem}
@@ -3581,8 +3581,8 @@ footer{margin-top:0}
 .square-img{padding-bottom:100%;overflow:hidden;position:relative}
 .thumb-wrapper{width:100%;height:300px;overflow:hidden}
 .thumb-wrapper img{-o-object-fit:cover;object-fit:cover}
-.blog-content-box{color:#ebf6de}
-.blog-content-box a h3,.blog-content-box a .h3{color:#ebf6de}
+.blog-content-box{color:#fff}
+.blog-content-box a h3,.blog-content-box a .h3{color:#fff}
 .blog-content-boxa h3,.blog-content-boxa .h3{color:#65d19a}
 .blog-post-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .blog-post-list{-ms-flex-preferred-size:100%;flex-basis:100%}
@@ -3612,20 +3612,20 @@ h3,.h3,h4,.h4{font-weight:bold}
 .wp-block-quote::before{font-family:"Font Awesome 5 Free";font-weight:900;content:"\f10d";font-size:2em}
 a{color:#65d19a}
 a:hover{color:#65d19a}
-.page-title-text{font-size:2em;color:#ebf6de}
+.page-title-text{font-size:2em;color:#fff}
 .cloudIntro{min-height:50vh}
 .pricing-table .card{color:#000;margin:1em;-webkit-transition:all .2s;transition:all .2s;border-radius:0}
 .pricing-table .card .card-title{font-size:1rem;letter-spacing:.2rem;font-weight:500}
 .pricing-table .card .card-price{font-size:2.7rem}
 .pricing-table .card .card-price .term{font-size:.875rem}
 .pricing-table .card .fa-ul li:not(:last-child){margin-bottom:1rem}
-.pricing-table .my-4{border-top:1px solid #ebf6de}
+.pricing-table .my-4{border-top:1px solid #fff}
 .pricing-table .card{border:10px solid #fff}
 .pricing-table .card-body .my-4{border-top:1px solid #65d19a}
 .pricing-table .card-highlight{border:10px solid #65d19a}
-.pricing-table .card-body-dark{background-color:#65d19a;border:5px solid #ebf6de;padding:5px}
+.pricing-table .card-body-dark{background-color:#65d19a;border:5px solid #fff;padding:5px}
 .pricing-table .card-body-inner-dark{background-color:#65d19a}
-.pricing-table .card-body-inner-dark .my-4{border-top:1px solid #ebf6de}
+.pricing-table .card-body-inner-dark .my-4{border-top:1px solid #fff}
 #status{color:#f44336;font-size:1.2em}
 .cloudWorld{height:100%}
 #cloudWorld{-o-object-fit:fill;object-fit:fill;-webkit-animation:MoveUpDown 6s linear infinite;animation:MoveUpDown 6s linear infinite;position:relative;-webkit-transition-timing-function:ease;transition-timing-function:ease;margin:4em}
@@ -3635,7 +3635,7 @@ a:hover{color:#65d19a}
 .single-post-main{margin-top:-100px;margin-top:-30vh}
 .single-post{height:150px}
 .post-thumb{height:400px;width:400px;margin-right:auto;margin-left:auto;position:relative;z-index:3}
-.default-content-box{background-color:#ebf6de;color:#0e3254;padding:5em}
+.default-content-box{background-color:#fff;color:#0e3254;padding:5em}
 .overlap-post{position:relative;z-index:1;margin-top:-200px;padding-top:250px}
 .box-content-wp{border:3px solid #0e3254 !important;padding:1.5em;margin:1em}
 .page-id-578 .navbar,.page-id-351 .navbar,.page-id-356 .navbar{background-color:#0e3254 !important;padding-top:5px;padding-bottom:5px}

@@ -25,9 +25,10 @@ $my-theme-secondary: rgb(14,50,84);
 $my-dark-theme: mdb-dark-theme($my-theme-primary, $my-theme-secondary);
 @include mdb-theme($my-dark-theme);
 
-$white: #EBF6DE;
+$white: #ffffff;
 $blue: #0e3254;
 $green: #65D19A;
+$light-green: #EBF6DE;
 
 // ===========================================================================
 // 1. Header Settings
@@ -53,14 +54,14 @@ body.logged-in {
 }
 body {
   
-    background: rgb(14,50,84);
+    /*background: rgb(14,50,84);
     background: radial-gradient(circle, rgba(14,50,84,1) 0%, rgba(6,33,56,1) 100%);
     background: url("assets/img/cloudback.svg") no-repeat 0 0 fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    background-color: $blue;
+    background-size: cover;*/
+    background-color: $white;
    
 
     //background-repeat: repeat;
