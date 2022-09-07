@@ -1,6 +1,7 @@
 <?php /* Template Name: Home 1*/ get_header(); ?>
 
-<div class="container ">
+<section class="landing">
+<div class="container">
     <div class="row screen-height flex-md-row-reverse justify-content-center">
 
               <div class="col-12 col-md-8 col-lg-6">
@@ -22,7 +23,10 @@
 
 </div>
  </div>
-
+ <div class="cloud-break">
+ <div class="parallax" data-mdb-image-src="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp" ></div>
+ </div>
+</section>
 
 
 

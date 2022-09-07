@@ -8,6 +8,8 @@
 //  2. Navigation
 //  3. Footer
 //  4. Content Boxes
+//      4.1 Landing
+//      4.2 Other
 //  4.a - Blog Roll
 //  5. Buttons
 //  6. Page Styles
@@ -20,14 +22,14 @@
 
 
 // DARK SKIN
-$my-theme-primary: #65D19A;
+$my-theme-primary: #6DE8AA;
 $my-theme-secondary: rgb(14,50,84);
 $my-dark-theme: mdb-dark-theme($my-theme-primary, $my-theme-secondary);
 @include mdb-theme($my-dark-theme);
 
 $white: #ffffff;
 $blue: #0e3254;
-$green: #65D19A;
+$green: #6DE8AA;
 $light-green: #EBF6DE;
 
 // ===========================================================================
@@ -259,6 +261,23 @@ footer {
 // ===========================================================================
 // 4. Content Boxes
 // ===========================================================================
+// =================
+// 4.1 Landing
+// =================
+
+.landing{
+    background:$green;
+}
+.cloud-break{
+
+}
+
+// Tutorial: https://medium.com/@patrickwestwood/how-to-make-multi-layered-parallax-illustration-with-css-javascript-2b56883c3f27
+
+
+// =================
+// 4.2 Other
+// =================
 
 .about-box{
     background-color: $white;
@@ -966,3 +985,84 @@ code {
 .nav-item{
     padding-top: 2em;
 }
+
+
+//PARALAX
+
+
+
+$heroHeight: 800px;
+
+
+#hero {
+	height: $heroHeight;
+	overflow: hidden;
+	position: relative;
+}
+#content {
+	background-color: $white;
+}
+.layer {
+	background-position: bottom center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: $heroHeight;
+	position: fixed;
+	z-index: -1;
+}
+
+#hero-mobile {
+	display: none;
+	background: url("https://i.ibb.co/d7hw559/full-illustration.png") no-repeat
+		center bottom / cover;
+	height: 320px;
+}
+
+.first-section {
+	padding: 50px 0 20px 0;
+}
+
+
+#hero,
+.layer {
+
+	min-height: 800px;
+    min-height:110vh;
+}
+
+.layer-bg {
+	background-color: $green;
+}
+.layer-1 {
+	background-image: url("assets/img/paralax/page-break-2.png");
+    background-size: 100%;
+}
+.layer-2 {
+	background-image: url("assets/img/paralax/page-break-3.png");
+    background-size: 100%;
+
+}
+.layer-3 {
+	background-image: url("assets/img/paralax/page-break-4.png");
+    background-size: 100%;
+}
+.layer-4 {
+	background-image: url("assets/img/paralax/page-break-5.png");
+    background-size: 100%;
+}
+/*.layer-overlay {
+	background-image: url("assets/img/paralax/page-break-1.png");
+    background-size: cover;
+}*/
+
+// Media Queries
+@media only screen and (max-width: 768px) {
+	#hero {
+		display: none;
+	}
+	#hero-mobile {
+		display: block;
+	}
+}
+
