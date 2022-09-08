@@ -99,14 +99,7 @@ box-shadow: none;
 
  //background: url("assets/img/concrete.jpg")!important;
 }
-@include media-breakpoint-up(lg) {
 
-    .navbar {
- 
-    background: transparent;
-
-    }
-}
 
 
 //navbar logo
@@ -190,6 +183,39 @@ code{
 .navbar.navbar-scroll.navbar-scrolled {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+// Nav Homepage green before scroll
+
+@include media-breakpoint-up(lg) {
+
+    .navbar-scroll {
+    background: transparent;
+    }
+    .navbar-scrolled {
+        background: $blue;
+        }
+    .navbar-scroll .navbar-nav .nav-link, .navbar-scroll .navbar-nav  .nav-item .nav-link:hover{
+    
+        color: $blue !important;
+      }
+      .navbar-scrolled .navbar-nav .nav-link,  .navbar-scrolled .navbar-nav  .nav-item .nav-link:hover{
+        color: $green;
+        color: $green !important;
+      }
+
+   
+      
+      .navbar-scroll .navbar-nav .nav-link:after {
+        background-color: $blue;
+      }
+      .navbar-scrolled .navbar-nav .nav-link:after {
+        background-color: $green;
+      }
+
+  
+  
+
 }
 // ===========================================================================
 // 3. Footer
@@ -983,7 +1009,7 @@ code {
     width: 100%
 }
 .nav-item{
-    padding-top: 2em;
+    padding-top: 0em;
 }
 
 
@@ -1028,7 +1054,7 @@ $heroHeight: 800px;
 .layer {
 
 	min-height: 800px;
-    min-height:110vh;
+
 }
 
 .layer-bg {

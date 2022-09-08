@@ -1,9 +1,6 @@
 <?php /* Template Name: Paralax*/ get_header(); ?>
 
-
-<div id='hero'>
-  <div class='layer-bg layer' data-depth='0.3' data-type='parallax'>
-  <section class="landing">
+<section class="landing">
 <div class="container">
     <div class="row screen-height flex-md-row-reverse justify-content-center">
 
@@ -28,6 +25,9 @@
  </div>
 
 </section>
+<div id='hero'>
+  <div class='layer-bg layer' data-depth='0.3' data-type='parallax'>
+
   </div>
   <!--<div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>-->
   <div class='layer-1 layer' data-depth='0.60' data-type='parallax'></div>

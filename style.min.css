@@ -3656,13 +3656,13 @@ a:hover{color:#65d19a}
 code{color:#000}
 .navbar-nav{width:100%}
 #navbarSupportedContent{background:#0e3254;width:100%}
-.nav-item{padding-top:2em}
+.nav-item{padding-top:0}
 #hero{height:800px;overflow:hidden;position:relative}
 #content{background-color:#fff}
 .layer{background-position:bottom center;background-size:auto;background-repeat:no-repeat;width:100%;height:800px;position:fixed;z-index:-1}
 #hero-mobile{display:none;background:url("https://i.ibb.co/d7hw559/full-illustration.png") no-repeat center bottom/cover;height:320px}
 .first-section{padding:50px 0 20px 0}
-#hero,.layer{min-height:800px;min-height:110vh}
+#hero,.layer{min-height:800px}
 .layer-bg{background-color:#6de8aa}
 .layer-1{background-image:url("assets/img/paralax/page-break-2.png");background-size:100%}
 .layer-2{background-image:url("assets/img/paralax/page-break-3.png");background-size:100%}
@@ -5229,7 +5229,12 @@ canvas{width:100%}
 .modal-non-invasive-open .modal.modal-non-invasive-show.modal.frame.top{-webkit-box-shadow:0 10px 20px 0 rgba(0,0,0,0.05);box-shadow:0 10px 20px 0 rgba(0,0,0,0.05)}
 .modal-non-invasive-open .modal.modal-non-invasive-show .modal-side.modal-bottom-right .modal-content{-webkit-box-shadow:0 -10px 20px 0 rgba(0,0,0,0.05);box-shadow:0 -10px 20px 0 rgba(0,0,0,0.05)}
 .modal-non-invasive-open .modal.modal-non-invasive-show .modal-side.modal-bottom-left .modal-content{-webkit-box-shadow:0 -10px 20px 0 rgba(0,0,0,0.05);box-shadow:0 -10px 20px 0 rgba(0,0,0,0.05)}
-.navbar{background:transparent}
+.navbar-scroll{background:transparent}
+.navbar-scrolled{background:#0e3254}
+.navbar-scroll .navbar-nav .nav-link,.navbar-scroll .navbar-nav .nav-item .nav-link:hover{color:#0e3254 !important}
+.navbar-scrolled .navbar-nav .nav-link,.navbar-scrolled .navbar-nav .nav-item .nav-link:hover{color:#6de8aa;color:#6de8aa !important}
+.navbar-scroll .navbar-nav .nav-link:after{background-color:#0e3254}
+.navbar-scrolled .navbar-nav .nav-link:after{background-color:#6de8aa}
 .white-content-box{width:50%}
 .blog-post-list{-ms-flex-preferred-size:30%;flex-basis:30%}
 .event-post-list{-ms-flex-preferred-size:45%;flex-basis:45%}
