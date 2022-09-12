@@ -3571,7 +3571,21 @@ footer{margin-top:0}
 .black-background{margin-top:2em;background:#000}
 .fc-wide{padding-left:calc(var(--bs-gutter-x) / 2)}
 .contact-icons li{list-style-type:none}
-.landing{background:#6de8aa}
+.landing{position:relative;z-index:4}
+#hero{height:300px;overflow:hidden;position:relative}
+#content{background-color:#fff;position:relative;z-index:10;top:-300px}
+.layer{background-position:bottom center;background-size:auto;background-repeat:no-repeat;width:100%;height:300px;position:fixed;z-index:-1}
+#hero-mobile{display:none;background:url("https://i.ibb.co/d7hw559/full-illustration.png") no-repeat center bottom/cover;height:320px}
+.first-section{padding:50px 0 20px 0}
+.green-bg{background-color:#6de8aa}
+#hero,.layer{min-height:300px}
+#hero{z-index:1}
+.cloud-static{background-image:url("assets/img/paralax/cloud-white-01.svg");background-size:100%;z-index:6;z-index:100;width:100%;height:300px;position:relative;background-position:bottom center;background-size:auto;background-repeat:no-repeat;bottom:300px}
+.layer-1{background-image:url("assets/img/paralax/cloud-light-01.svg");background-size:100%;z-index:2}
+.layer-2{background-image:url("assets/img/paralax/cloud-dark-01.svg");background-size:100%;z-index:3;bottom:-375px}
+.layer-3{background-image:url("assets/img/paralax/cloud-dark-02.svg");background-size:100%;z-index:3;bottom:-250px}
+.cloud-layer{position:relative;z-index:4}
+.layer-4{background-image:url("assets/img/paralax/page-break-5.png");background-size:100%;z-index:5}
 .about-box{background-color:#fff;padding:2em;color:#0e3254}
 .white-content-box{background-color:#65d19a;width:100%;padding:2rem;color:#fff}
 .contact-box{width:100%;padding:2rem;color:#fff}
@@ -3628,7 +3642,7 @@ a:hover{color:#65d19a}
 .pricing-table .card-body-inner-dark{background-color:#65d19a}
 .pricing-table .card-body-inner-dark .my-4{border-top:1px solid #fff}
 #status{color:#f44336;font-size:1.2em}
-.cloudWorld{height:100%}
+.cloudWorld{height:100%;position:relative;z-index:3}
 #cloudWorld{-o-object-fit:fill;object-fit:fill;-webkit-animation:MoveUpDown 6s linear infinite;animation:MoveUpDown 6s linear infinite;position:relative;-webkit-transition-timing-function:ease;transition-timing-function:ease;margin:4em}
 .icon-50{width:50%}
 .page-img-header{height:500px;height:60vh}
@@ -3657,17 +3671,6 @@ code{color:#000}
 .navbar-nav{width:100%}
 #navbarSupportedContent{background:#0e3254;width:100%}
 .nav-item{padding-top:0}
-#hero{height:800px;overflow:hidden;position:relative}
-#content{background-color:#fff}
-.layer{background-position:bottom center;background-size:auto;background-repeat:no-repeat;width:100%;height:800px;position:fixed;z-index:-1}
-#hero-mobile{display:none;background:url("https://i.ibb.co/d7hw559/full-illustration.png") no-repeat center bottom/cover;height:320px}
-.first-section{padding:50px 0 20px 0}
-#hero,.layer{min-height:800px}
-.layer-bg{background-color:#6de8aa}
-.layer-1{background-image:url("assets/img/paralax/page-break-2.png");background-size:100%}
-.layer-2{background-image:url("assets/img/paralax/page-break-3.png");background-size:100%}
-.layer-3{background-image:url("assets/img/paralax/page-break-4.png");background-size:100%}
-.layer-4{background-image:url("assets/img/paralax/page-break-5.png");background-size:100%}
 @media(prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}
 :root{scroll-behavior:smooth}
 }@media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}

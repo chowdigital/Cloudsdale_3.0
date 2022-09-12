@@ -1,13 +1,12 @@
 <?php /* Template Name: Paralax*/ get_header(); ?>
-<div class="green-bg">
 
 <section class="landing">
 <div class="container">
-    <div class="row screen-height flex-md-row-reverse cloud-layer justify-content-center"  >
+    <div class="row screen-height flex-md-row-reverse justify-content-center">
 
               <div class="col-12 col-md-8 col-lg-6">
                     <div class="d-flex flex-column justify-content-center cloudWorld" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-right">
-                 <img id="cloudWorld"  src="<?php echo get_template_directory_uri(); ?>/assets/img/cloudWorld.svg" alt="">
+                    <img id="cloudWorld" src="<?php echo get_template_directory_uri(); ?>/assets/img/cloudWorld.svg" alt="">
                   </div>
 
               </div>
@@ -26,18 +25,19 @@
  </div>
 
 </section>
-
-
 <div id='hero'>
+  <div class='layer-bg layer' data-depth='0.3' data-type='parallax'>
 
-  <div class='layer-1 layer' data-depth='0.9' data-type='parallax'></div>
-  <div class='layer-2 layer' data-depth='1.1' data-type='parallax'></div>
-  <div class='layer-3 layer' data-depth='0.8' data-type='parallax'></div>
+  </div>
+  <!--<div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>-->
+  <div class='layer-1 layer' data-depth='0.60' data-type='parallax'></div>
+  <div class='layer-2 layer' data-depth='0.70' data-type='parallax'></div>
+  <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
+
+  <div class='layer-4 layer' data-depth='.95' data-type='parallax'></div>
 </div>
-<div class="cloud-static"></div>
 
 <div id='hero-mobile'></div>
-
 <div id='content'>
   <div class='container'>
     <section class='first-section'>
@@ -63,7 +63,7 @@
     </section>
   </div>
 </div>
-</div>
+
 <?php get_footer(); ?>
 
 

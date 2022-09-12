@@ -292,11 +292,123 @@ footer {
 // =================
 
 .landing{
-    background:$green;
+    position: relative;
+    z-index:4;
 }
 .cloud-break{
 
 }
+
+//PARALAX
+
+
+
+$heroHeight: 300px;
+
+
+#hero {
+	height: $heroHeight;
+	overflow: hidden;
+	position: relative;
+}
+#content {
+	background-color: $white;
+    position: relative;
+    z-index: 10;
+    top: -300px;
+}
+.layer {
+	background-position: bottom center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: $heroHeight;
+	position: fixed;
+	z-index: -1;
+}
+
+#hero-mobile {
+	display: none;
+	background: url("https://i.ibb.co/d7hw559/full-illustration.png") no-repeat
+		center bottom / cover;
+	height: 320px;
+}
+
+.first-section {
+	padding: 50px 0 20px 0;
+}
+
+.green-bg{
+    background-color: $green;
+}
+#hero,
+.layer {
+
+	min-height: 300px;
+
+}
+#hero{
+
+    z-index:1;
+}
+.cloud-static{
+    background-image: url("assets/img/paralax/cloud-white-01.svg");
+    background-size: 100%;
+    z-index:6;
+    z-index: 100;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom:300px;
+}
+
+.layer-1 {
+	background-image: url("assets/img/paralax/cloud-light-01.svg");
+    background-size: 100%;
+    z-index:2;
+}
+.layer-2 {
+	background-image: url("assets/img/paralax/cloud-dark-01.svg");
+    background-size: 100%;
+    z-index:3;
+    bottom: -375px;
+
+}
+.layer-3 {
+	background-image: url("assets/img/paralax/cloud-dark-02.svg");
+    background-size: 100%;
+    z-index:3;
+    bottom: -250px;
+
+}
+.cloud-layer{
+    position: relative;
+    z-index:4;
+
+}
+.layer-4 {
+	background-image: url("assets/img/paralax/page-break-5.png");
+    background-size: 100%;
+    z-index:5;
+}
+/*.layer-overlay {
+	background-image: url("assets/img/paralax/page-break-1.png");
+    background-size: cover;
+}*/
+
+// Media Queries
+@media only screen and (max-width: 768px) {
+	#hero {
+		display: none;
+	}
+	#hero-mobile {
+		display: block;
+	}
+}
+
 
 // Tutorial: https://medium.com/@patrickwestwood/how-to-make-multi-layered-parallax-illustration-with-css-javascript-2b56883c3f27
 
@@ -750,6 +862,8 @@ a:hover {
 
  .cloudWorld{
      height: 100%;
+     position: relative;
+     z-index:3;
  }
  #cloudWorld {
     object-fit: fill;
@@ -1012,83 +1126,4 @@ code {
     padding-top: 0em;
 }
 
-
-//PARALAX
-
-
-
-$heroHeight: 800px;
-
-
-#hero {
-	height: $heroHeight;
-	overflow: hidden;
-	position: relative;
-}
-#content {
-	background-color: $white;
-}
-.layer {
-	background-position: bottom center;
-	background-size: auto;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: $heroHeight;
-	position: fixed;
-	z-index: -1;
-}
-
-#hero-mobile {
-	display: none;
-	background: url("https://i.ibb.co/d7hw559/full-illustration.png") no-repeat
-		center bottom / cover;
-	height: 320px;
-}
-
-.first-section {
-	padding: 50px 0 20px 0;
-}
-
-
-#hero,
-.layer {
-
-	min-height: 800px;
-
-}
-
-.layer-bg {
-	background-color: $green;
-}
-.layer-1 {
-	background-image: url("assets/img/paralax/page-break-2.png");
-    background-size: 100%;
-}
-.layer-2 {
-	background-image: url("assets/img/paralax/page-break-3.png");
-    background-size: 100%;
-
-}
-.layer-3 {
-	background-image: url("assets/img/paralax/page-break-4.png");
-    background-size: 100%;
-}
-.layer-4 {
-	background-image: url("assets/img/paralax/page-break-5.png");
-    background-size: 100%;
-}
-/*.layer-overlay {
-	background-image: url("assets/img/paralax/page-break-1.png");
-    background-size: cover;
-}*/
-
-// Media Queries
-@media only screen and (max-width: 768px) {
-	#hero {
-		display: none;
-	}
-	#hero-mobile {
-		display: block;
-	}
-}
 
