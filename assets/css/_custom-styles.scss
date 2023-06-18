@@ -294,6 +294,8 @@ footer {
 .landing{
     position: relative;
     z-index:4;
+
+
 }
 .cloud-break{
 
@@ -340,6 +342,7 @@ $heroHeight: 300px;
 
 .green-bg{
     background-color: $green;
+
 }
 #hero,
 .layer {
@@ -871,6 +874,8 @@ a:hover {
     position: relative;
     transition-timing-function: ease;
     margin: 4em;
+    width: 50%;
+   
    
  }
 

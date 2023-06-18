@@ -1,32 +1,10 @@
 <?php /* Template Name: Paralax*/ get_header(); ?>
 <div class="green-bg">
 
-<section class="landing">
-<div class="container">
-    <div class="row screen-height flex-md-row-reverse cloud-layer justify-content-center"  >
-
-              <div class="col-12 col-md-8 col-lg-6">
-                    <div class="d-flex flex-column justify-content-center cloudWorld" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-right">
-                 <img id="cloudWorld"  src="<?php echo get_template_directory_uri(); ?>/assets/img/cloudWorld.svg" alt="">
-                  </div>
-
-              </div>
-              <div class="col-10 col-md-4 col-lg-6 d-flex flex-column justify-content-center cloudIntro" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-up">
-            
-                <h1 class="col-12 page-title-text">FOOD FOCUSED <br>WEB DESIGN <br>& CREATIVITY</h1>
-
-
-
-
-
-              </div>
-              
-
+<div class="cloudWorld" data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="fade-in-right">
+  <img id="cloudWorld" src="<?php echo get_template_directory_uri(); ?>/assets/img/cloudWorld.svg" alt=""  data-depth='-0.5' data-type='parallax'>
 </div>
- </div>
-
-</section>
-
+            
 
 <div id='hero'>
 

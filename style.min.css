@@ -3643,7 +3643,7 @@ a:hover{color:#65d19a}
 .pricing-table .card-body-inner-dark .my-4{border-top:1px solid #fff}
 #status{color:#f44336;font-size:1.2em}
 .cloudWorld{height:100%;position:relative;z-index:3}
-#cloudWorld{-o-object-fit:fill;object-fit:fill;-webkit-animation:MoveUpDown 6s linear infinite;animation:MoveUpDown 6s linear infinite;position:relative;-webkit-transition-timing-function:ease;transition-timing-function:ease;margin:4em}
+#cloudWorld{-o-object-fit:fill;object-fit:fill;-webkit-animation:MoveUpDown 6s linear infinite;animation:MoveUpDown 6s linear infinite;position:relative;-webkit-transition-timing-function:ease;transition-timing-function:ease;margin:4em;width:50%}
 .icon-50{width:50%}
 .page-img-header{height:500px;height:60vh}
 .overlap-cover{margin-top:-30vh}
